@@ -21,5 +21,4 @@ while number:
         driver = webdriver.Firefox()
         driver.implicitly_wait(120)
         driver.minimize_window()
-
     print(number)
