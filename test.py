@@ -9,10 +9,6 @@ while number:
 
     driver.minimize_window()
     driver.implicitly_wait(60)
-
-    # driver.get("https://www.baidu.com")  # 通过get()方法，打开一个url站点
-    driver.get("https://blog.csdn.net/ChaoFeiLi/article/details/86595160")
-    driver.get("https://blog.csdn.net/ChaoFeiLi/article/details/86591672")
     driver.implicitly_wait(60)
     driver.get("https://blog.csdn.net/ChaoFeiLi/article/details/86584958")
     driver.get("https://blog.csdn.net/ChaoFeiLi/article/details/84789949")
