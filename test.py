@@ -15,7 +15,6 @@ while number:
     driver.get("https://blog.csdn.net/ChaoFeiLi/article/details/86606128")
     driver.get('https://blog.csdn.net/ChaoFeiLi/article/details/86617923')
     driver.implicitly_wait(120)
-
     if number % 10 == 0:
         # 关闭浏览器
         driver.quit()
