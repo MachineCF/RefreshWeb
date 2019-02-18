@@ -6,7 +6,6 @@ number = 1
 while number:
     number += 1
     # 初始化一个火狐浏览器实例：driver
-
     driver.minimize_window()
     driver.implicitly_wait(60)
     driver.implicitly_wait(60)
